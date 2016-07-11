@@ -7,6 +7,8 @@ Rails.application.routes.draw do
     patch 'orders/:id' => 'orders#update'
     delete 'orders/:id' => 'orders#delete'
     post "registrations" => 'registrations#create'
+    get "me"=> 'users#me'
+    delete "me" =>'users#delete'
   end
 
 end
