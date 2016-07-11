@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  product_name: MyString
+  amount_in_cents: 1
+  order_date: 2016-07-10 20:53:26
+
+two:
+  product_name: MyString
+  amount_in_cents: 1
+  order_date: 2016-07-10 20:53:26
